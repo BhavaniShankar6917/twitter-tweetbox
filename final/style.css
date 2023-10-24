@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(218, 227, 232, 0.1),
+      rgba(0, 158, 240, 0.9)
+    ),
+    url(asset/twitter-128-black.png);
+  background-position: 79% 50%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+  word-spacing: -0.1ch;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  width: 40%;
+  height: 80%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  background-color: #e9ecef;
+}
+.title {
+  text-align: center;
+}
+.textbox-container {
+  margin-top: 30px;
+}
+.textbox {
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  min-height: 50px;
+  border: 1.4px solid rgb(0, 158, 240);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.textbox:focus {
+  outline: 1.4px solid rgb(0, 158, 240);
+}
